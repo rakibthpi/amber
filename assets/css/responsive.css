@@ -1,0 +1,267 @@
+@media all  and (min-width: 992px){
+	.menu ul{
+		display: flex !important;
+	}
+}
+@media all and (max-width: 1200px){
+	/*6no page portfolimasonry*/
+	.portfoliomasonry-blog {
+		column-count: 2 !important;	
+	}
+	.portfoliomasonry-blog .single-work {
+		margin-bottom: 8rem !important;
+	}
+	.masonry-bottom {
+	padding: 0rem 0rem 5rem 0rem;
+}
+}
+
+
+
+@media all  and (max-width: 992px){
+	/*header-menu*/
+	.header-area{
+		padding: 2rem 0rem;
+	}
+	.logo {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.logo a i {
+		color: #fff;
+		font-size: 3rem;
+		border: .1rem solid #ddd;
+		display: inline-block;
+		padding: .1rem .2rem;
+	}
+	.logo a i:hover{
+		background: #02baab;
+	}
+	.menu ul {
+		justify-content: center;
+		flex-direction: column;
+		padding: 2rem 0rem;
+		display: none;
+	}
+	.menu ul li a{
+		padding: 1rem 1rem;
+		border: none;
+	}
+	/*"month text-center*/
+	.section-title p{
+		width: 90%;
+	}
+	/*wordpress-purshase*/
+	.wordpress-purshase{
+		flex-direction: column;
+	}
+	.wordpress-purshase h1{
+		padding-bottom: 1rem;
+		text-align: center;
+	}
+
+	/*testimonial*/ 
+	.single-testimonial h1{
+		width: 90%;
+	}
+
+	/*Company Experince*/
+	.single-experince::after{
+		display: none;
+	}
+	/*our team */
+	.single-team-item{
+		margin-bottom: 5rem;
+	}
+	/*4 no page blog-grid-banner-area-section*/
+	.content-img-gallery {
+		flex-direction: column;
+		align-items: center;
+	}
+	.content-img-gallery img {
+		margin-top: 2rem;
+	}
+
+	/*3no page"mosonry-blog-area-section*/
+	.single-mosnry-img-blog {
+		column-count: 2;
+	}
+
+	/*6no page portfolimasonry*/
+	.portfoliomasonry-blog {
+		column-count: 1 !important;	
+		text-align: center;
+	}
+	.portfoliomasonry-blog .single-work {
+		margin-bottom: 4rem !important;
+	}
+
+	/*7no page portfoliosingle*/
+	.portfolio-left-footer-icon {
+		margin: 3rem 0rem 5rem 0rem;
+	}
+
+
+
+}
+
+@media all and (max-width: 768px){
+	/*banner*/
+	.banner-single-item{
+		padding: 15rem 0rem 10rem 0rem;
+	}
+	/*Company Experince*/
+	.single-experince-content{
+		margin-bottom: 5rem;
+	}
+	/*our team */
+	.blog-content a h4{
+		text-align: center;
+	}
+	/*footer*/
+	.footer-bottom{
+		flex-direction: column;
+		align-items: center;
+		border-top:.1rem solid #ddd;
+		margin-top: 2rem;
+	}
+	.footer-btm-right{
+		margin-top: 2rem;
+	}
+	.footer-btm-left p{
+		width: 100%;
+	}
+	/*4 no page blog-grid-banner-area-section*/
+	.blog-banner {
+		flex-direction: column;
+		align-items: center;
+	}
+	.icon-cantact-left {
+		margin-bottom: 2rem;
+	}
+	.blog-banner {
+		margin: 10rem 0rem 3rem 0rem;
+	}
+	/*.latest-works*/
+	.latest-works {
+		margin-bottom: 8rem;
+	}
+	/*portfoliogrid 5no page*/
+	.masonry-bottom {
+		padding: 3rem 0rem 5rem 0rem;
+	}
+
+	/*7no page portfoliosingle*/
+	.portfolio-left-footer-icon {
+		margin:0rem;
+	}
+	.portfoliosingle-right-battom {
+		margin: 5rem 0rem;
+	}
+	/*blog-banner*/
+	.blog-banner {
+		margin: 5rem 0rem 5rem 0rem;
+	}
+	.menu-right ul li {
+		margin-bottom: 0rem;
+	}
+
+	/*7no page*/
+	.masonry-bottom {
+		padding: 0rem 0rem 2rem 0rem;
+	}
+
+	
+}
+
+
+@media all and (max-width: 576px) {
+	/*header-top*/
+	.header-top-link ul li a{
+		padding: 0rem 1.5rem 0rem 1.5rem;
+	}
+	/*banner*/
+	.banner-text h1:first-child,
+	.banner-text h1:last-child{
+		font-size: 3rem;
+
+	}
+	.banner-text h1:last-child{
+		padding-top: 1rem;
+	}
+	/*"month text-center*/
+	.section-title p{
+		width: 100%;
+	}
+	/*4no page blog-grid-banner-area-section*/
+	/*.icon-cantact-left{
+		flex-direction: column;
+	}
+*/	.single-icon{
+		margin-bottom: 2rem;
+	}
+	/*.menu-right ul {
+		flex-direction: column;
+	}*/
+	.menu-right ul li{
+		margin-bottom: 2rem;
+	}
+	.menu-right ul li a span::after {
+		display: none;
+	}
+	/*single-blog-bottom 4no page*/
+	.tags {
+		/*flex-direction: column;*/
+		align-items: flex-start;
+	}
+	.tag-icon{
+		margin-bottom: 1rem;
+	}
+	/*related-post-multi 4no page*/
+	.related-posts{
+		flex-direction: column;
+	}
+	.related-item{
+		margin-bottom: 3rem;
+	}
+	/*header-top-search-responsive*/
+	.responsive-search{
+		display: block;
+	}
+	.header-top-link{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.responsive-search a i{
+		font-size: 1.4rem;
+		color: #85939f;
+		padding-left: 1rem;
+	}
+
+	/*blog-banner*/
+	.menu-right ul li {
+		margin-bottom: 0rem;
+	}
+
+	/*.single-mosnry-img-blog 3no page*/
+	.single-mosnry-img-blog {
+		column-count: 1;
+	}
+
+}
+@media all and (max-width: 420px){
+	/*7no page*/
+	.header-top-link ul li a {
+		padding: 0rem 0.5rem 0rem 0.5rem;
+	}
+}
+
+@media all and (max-width: 360px){
+	/*single-blog-bottom 4no page*/
+	
+	.count-tow{
+		display: none;
+	}
+}
