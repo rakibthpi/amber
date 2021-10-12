@@ -141,7 +141,7 @@
     ===================================================================
 -->
 <!-- JS Files -->
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/modernizr-3.11.2.min"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/popper.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js/bootstrap.min.js"></script>

@@ -51,7 +51,7 @@
             <div class="col-lg-4 col-md-12">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="assets/images/header_logo.png" alt="logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header_logo.png" alt="logo">
                     </a>
                     <a href="#"><i class="fas fa-bars"></i></a>
                 </div>

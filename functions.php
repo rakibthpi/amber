@@ -39,12 +39,32 @@ function js_css_link(){
 	// Script main js link area 
 	 // wp_register_script('jquery-js',get_template_directory_uri().'/assets/js/jquery.min.js');
 
+	 wp_register_script('modernizr-js',get_template_directory_uri().'/assets/js/modernizr-3.11.2.min');
+	 wp_register_script('popper-js',get_template_directory_uri().'/assets/js/popper.min.js');
+	 wp_register_script('bootstrap-js',get_template_directory_uri().'/assets/js/bootstrap.min.js');
+	 wp_register_script('owl-carousel-js',get_template_directory_uri().'/assets/js/owl.carousel.min.js');
+	 wp_register_script('magnific-popup-js',get_template_directory_uri().'/assets/js/jquery.magnific-popup.min.js');
+	 wp_register_script('asPieProgress-js',get_template_directory_uri().'/assets/js/jquery-asPieProgress.js');
+	 wp_register_script('coustom-js',get_template_directory_uri().'/assets/js/custom.js');
+
 
 
 
 	 wp_enqueue_script('jquery');
+	 wp_enqueue_script('modernizr-js');
+	 wp_enqueue_script('popper-js');
+	 wp_enqueue_script('bootstrap-js');
+	 wp_enqueue_script('owl-carousel-js');
+	 wp_enqueue_script('magnific-popup-js');
+	 wp_enqueue_script('asPieProgress-js');
+	 wp_enqueue_script('coustom-js');
+
+	 // Script main js link End
 
 
 }
 
+
+	require_once('inc/Redux/redux-core/framework.php');
+	require_once('inc/Redux/sample/config.php');
 
