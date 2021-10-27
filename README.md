@@ -1,6 +1,6 @@
-Text 
-Textarea
-Midea
-Background 
-Checkbox
-Color
+Text,
+Textarea,
+Midea,
+Background,
+Checkbox,
+Color,
