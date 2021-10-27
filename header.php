@@ -1,3 +1,4 @@
+<?php global $rakibthpi; ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -50,7 +51,9 @@
         <div class="row align-items-center">
             <div class="col-lg-4 col-md-12">
                 <div class="logo">
+                    <p style="color:red;"><?php echo $rakibthpi['logoUploader']; ?></p>
                     <a href="index.html">
+                        
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header_logo.png" alt="logo">
                     </a>
                     <a href="#"><i class="fas fa-bars"></i></a>
